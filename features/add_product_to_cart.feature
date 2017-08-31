@@ -6,10 +6,10 @@ Feature: Add product to cart feature
     * I wait for the view with id "btn_enter_as_agent" to appear
     When I press view with id "btn_enter_as_agent"
     * I wait for the view with id "activity_login_et_username" to appear
-    Then I enter text "rifky.ali.kiki@gmail.com" into field with id "activity_login_et_username"
+    Then I enter text "<enter_your_username>" into field with id "activity_login_et_username"
     When I press view with id "login_bt_next"
     * I wait for the view with id "login_et_password" to appear
-    Then I enter text "Password123$" into field with id "login_et_password"
+    Then I enter text "<enter_your_password>" into field with id "login_et_password"
     When I press view with id "login_button"
     * I wait for the view with id "btn_skip_kudo_tutorial" to appear
     When I press view with id "btn_skip_kudo_tutorial"
